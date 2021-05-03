@@ -37,7 +37,6 @@ def update(frameNum, img, grid, N):
     return img,
 
 def main():
-    # Command line arg’s are in sys.argv[1], sys.argv[2] ..
     # sys.argv[0] is the script name itself and can be ignored
     # parse arguments
     parser = argparse.ArgumentParser(description="Runs Conway's Game of Life simulation.")
